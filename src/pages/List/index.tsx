@@ -48,7 +48,7 @@ const List: React.FC<IRouteParams> = ({ match }) => {
 
   const location = useMemo(() => {
     return movimentType === "entry-balance"
-      ? { title: "Entradas", lineColor: "#f7931b", data: gains }
+      ? { title: "Entradas", lineColor: "#06a800", data: gains }
       : { title: "Saídas", lineColor: "#e44c4e", data: expenses };
   }, [movimentType]);
 
